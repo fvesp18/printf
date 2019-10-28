@@ -20,6 +20,7 @@ int _printf(const char *format, ...)
 		if (format[counter] == '%')
 		{
 			specify = format[counter + 1];
+			counter = switch(specify, list);
 		}
 		else
 		{
