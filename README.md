@@ -6,7 +6,7 @@ This version of printf is created for educational purposes at Holberton School. 
 
 ##Installation
 
-To implement this printf, all files from the repository must be cloned using this [link](https).
+To implement this printf, all files from the repository must be cloned using this [link](https://github.com/fvesp18/printf).
 
 ##Usage
 
@@ -26,4 +26,4 @@ For contribution, please notify authors with any comments or concerns before upd
 
 ##Authors
 
-Created for Holberton School by [Flavio Vilchez-Espinoza](https://github.com/fvesp18) and [Kathleen R McKiernan](https://github.com/KathleenRMcK) on repository [printf](https).
+Created for Holberton School by [Flavio Vilchez-Espinoza](https://github.com/fvesp18) and [Kathleen R McKiernan](https://github.com/KathleenRMcK) on repository [printf](https://github.com/fvesp18/printf).
