@@ -6,7 +6,7 @@
  * Return: integer
  */
 
-void _print_di(int di)
+int _print_di(int di)
 {
 	if (di >= '9')
 	{
@@ -19,5 +19,5 @@ void _print_di(int di)
 		_putchar((di % 10) + '0');
 		di++;
 	}
-
+	return (di);
 }
