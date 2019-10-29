@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void _puts(char *str)
+int _puts(char *str)
 {
 	int begin = 0;
 
@@ -15,5 +15,5 @@ void _puts(char *str)
 		_putchar(str[begin]);
 		begin++;
 	}
-	_putchar('\n');
+	return (begin);
 }

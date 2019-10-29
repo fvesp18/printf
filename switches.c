@@ -7,7 +7,7 @@
  * Return: count of strings
  */
 
-int switch(char specify, va_list list)
+int switch_c(char specify, va_list list)
 {
 	int count = 0;
 
@@ -20,17 +20,17 @@ int switch(char specify, va_list list)
 			count = _puts(va_arg(list, char *));
 			break;
 		case 'c':
-			count = _putchar(va_arg(list, char));
+			count = _putchar(va_arg(list, int));
 			break;
 		case 'd':
-			count = _print_i(va_arg(list, int));
+			count = _print_di(va_arg(list, int));
 			break;
 		case 'i':
-			count = _print_d(va_arg(list, int));
+			count = _print_di(va_arg(list, int));
 			break;
-		case 'b':
-			count = _print_b(va_arg(list, int));
-			break;
+//		case 'b':
+//			count = _print_b(va_arg(list, int));
+//			break;
 	}
 	count++;
 	return (count);
