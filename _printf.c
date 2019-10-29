@@ -27,12 +27,11 @@ int _printf(const char *format, ...)
 		{
 		       	_print_di(_strlen(buffer) - 1);
 			_putchar(format[counter]);
+			outcome++;
 		}
 		counter += 1; /* increment past specifier */
-		outcome += 1;
 		}
-	_puts(buffer);
+	/* _puts(buffer); */
 	va_end(list);
 	return(outcome);
 }
-
