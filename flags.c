@@ -4,7 +4,7 @@
  * @flag: flag character being checked
  * Return: flag if not cleared
  */
-int zeroflag(int flag);
+int zeroflag(int flag)
 {
 	if (flag == '0')
 	{
@@ -19,7 +19,7 @@ int zeroflag(int flag);
  * @flag: flag character being checked
  * Return: left-justify if cleared
  */
-int minusflag(int flag);
+int minusflag(int flag)
 {
 	if (flag == '-')
 	{
