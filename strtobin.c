@@ -12,7 +12,7 @@ void strtobin(unsigned int toconvert, unsigned int *ones)
 	if (toconvert == 1)
 	{
 		_putchar('1');
-		*ones++;
+		(*ones)++;
 		return;
 	}
 	else
@@ -26,7 +26,7 @@ void strtobin(unsigned int toconvert, unsigned int *ones)
 		{
 			b = '1';
 			toconvert = toconvert / 2;
-			*ones++;
+			(*ones)++;
 		}
 		strtobin(toconvert, ones);
 		_putchar(b);
