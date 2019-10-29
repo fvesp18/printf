@@ -6,7 +6,7 @@
  */
 int _print_di(int di)
 {
-	_putchar(atoi(di));	
+	_putchar(di);	
 
 	return (di);
 }
