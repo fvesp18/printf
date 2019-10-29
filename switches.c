@@ -28,10 +28,10 @@ int switch_c(char specify, va_list list)
 		case 'i':
 			count = _print_di(va_arg(list, int));
 			break;
-//		case 'b':
-//			count = _print_b(va_arg(list, int));
-//			break;
-	}
-	count++;
-	return (count);
+/*		case 'b':
+			count = _print_b(va_arg(list, int));
+			break;
+*/	}
+/*	count++;
+ */	return (count);
 }
