@@ -38,7 +38,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-		       	_print_di(_strlen(buffer) - 1);
+			_print_di(_strlen(buffer) - 1);
 			_putchar(format[counter]);
 			outcome++;
 		}
@@ -47,5 +47,5 @@ int _printf(const char *format, ...)
 	/* _puts(buffer); */
 >>>>>>> cb8df48f0d965557fe62f7d95233c884808f5ea9
 	va_end(list);
-	return(outcome);
+	return (outcome);
 }

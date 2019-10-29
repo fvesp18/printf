@@ -15,5 +15,6 @@ int _puts(char *str)
 		_putchar(str[begin]);
 		begin++;
 	}
+	begin--;
 	return (begin);
 }
