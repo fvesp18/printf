@@ -23,10 +23,10 @@ int switch(char specify, va_list list)
 			count = _putchar(va_arg(list, char));
 			break;
 		case 'd':
-			count = _print_i(va_arg(list, int));
+			count = _print_di(va_arg(list, int));
 			break;
 		case 'i':
-			count = _print_d(va_arg(list, int));
+			count = _print_di(va_arg(list, int));
 			break;
 		case 'b':
 			count = _print_b(va_arg(list, int));
