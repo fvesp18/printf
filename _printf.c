@@ -16,7 +16,7 @@ int _printf(const char *format, ...)
 		return (-1);
 	va_start(list, format);
 	while (format && format[counter])
-		{
+	{
 		if (format[counter] == '%')
 		{
 			counter++; /* increment to specifier */
@@ -26,11 +26,10 @@ int _printf(const char *format, ...)
 		else
 		{
 			_print_di(_strlen(buffer) - 1);
-			_putchar(format[counter]);
-			outcome++;
+			outcome += _putchar(format[counter]);
 		}
-		counter += 1; /* increment past specifier */
-		}
+		counter += 1;
+	}
 	/* _puts(buffer); */
 	va_end(list);
 	return (outcome);
