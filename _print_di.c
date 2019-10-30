@@ -6,7 +6,18 @@
  */
 int _print_di(int di)
 {
-	_putchar(di);	
+	int counter = 0;
 
-	return (di);
+	if (di < 0)
+	{
+		di *= -1;
+		_putchar('-');
+	}
+	if (di != 0)
+	{
+		counter++;
+		_print_di(di / 10);
+		_putchar((di % 10) + '0');
+	}
+	return (counter);
 }

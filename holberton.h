@@ -13,6 +13,8 @@ int _puts(char *str);
 int _print_di(int di);
 int _strlen(char *s);
 int switch_c(char, va_list);
-char *itoa(int incoming, char* buff, int rad);
+int print_hex(unsigned int n);
+void print_rev(char *s);
+void strtobin(unsigned int toconvert, unsigned int *ones);
 
 #endif
