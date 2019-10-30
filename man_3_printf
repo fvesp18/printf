@@ -1,33 +1,42 @@
-.TH man 3 "04 May 2015" "0.32" "holberton man page"
+.TH _PRINTF "3" "0.00" "_printf man page"
 .SH NAME
-.B holberton
-- become a full-stack software engineer.
+_printf - prints formatted output
 .SH SYNOPSIS
-holberton [STUDENTNAME]
+.br
+.RS
+.B _printf
+.I FORMAT [ARGUMENT]...
+.br
+.B _printf
+.I OPTIONS
+.br
+.RE
 .SH DESCRIPTION
-Holberton School is a project-based alternative to college for the next generation of software engineers.
-.SH OPTIONS
-.y 2015" "0.32" "holberton man page"
-.SH NAME
-.B holberton
-- become a full-stack software engineer.
-.SH SYNOPSIS
-holberton [STUDENTNAME]
-.SH DESCRIPTION
-Holberton School is a project-based alternative to college for the next generation of software engineers.
-.SH OPTIONS
-.B holberton
-does not take any options. However, you can supply studentname.
+.br
+Printf is a function that is designed to take argument from format and prints formatted output into standard output.
+.SH CONVERSION MODIFIERS
+.RS
+.br
+d: prints an integer
+.br
+i: 
+prints an integer
+.br
+s: 
+prints a string
+.br
+c:
+prints a charater
+.br
+%:
+prints a percent sign
+.RE
 .SH SEE ALSO
-.I peerlearning(2), projectbased(2), fullstack(2), Betty(1)
+.br
+.I printf(3), sh(1), echo(1), builtin(1)
 .SH BUGS
-No known bugs.
-.SH AUTHOR
-Julien Barbier, Sylvain Kalache, Sophie Barbier, Guillaume Salva, Kris Bredemeier, Julien Cyr, Alex Gautier and all the Holberton mentorsB holberton
-does not take any options. However, you can supply studentname.
-.SH SEE ALSO
-.I peerlearning(2), projectbased(2), fullstack(2), Betty(1)
-.SH BUGS
-No known bugs.
-.SH AUTHOR
-Julien Barbier, Sylvain Kalache, Sophie Barbier, Guillaume Salva, Kris Bredemeier, Julien Cyr, Alex Gautier and all the Holberton mentors
+.br
+Some issues may arise when trying to format integers with options %d or %i, when the integer is larger than 99. 
+.SH AUTHORS
+.br
+McKiernan, Kathleen and Espinoza, Flavio
